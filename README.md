@@ -1,2 +1,2 @@
-# ALCDNet
-The code will come soon.
+# ALCDNet: Loop Closure Detection based on Acoustic Echoes
+The code and data will come soon...
