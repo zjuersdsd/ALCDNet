@@ -1,0 +1,19 @@
+"experiment":
+  channel_num: 8
+  # TRAINING
+  "epochs" : 1000
+  "learning_rate" : 0.0001
+  "weight_decay" : 0.000001
+  "batch_size" : 512
+  # PARAMS FOR MOCO
+  "feature_dim" : 128
+  "m" : 32768 # Negative sample number
+  "temperature" : 0.07 # Temperature used in softmax
+  "momentum" : 0.99 # Momentum used for the update of memory bank
+  "k" : 200 # Top k most similar images used to predict the label
+
+
+  # LOSS
+  "loss_type": "INFO_NCE_SOFT_DTW"
+  "gamma" : 0.1 #hyperparameter of soft-dtw loss
+  "alpha" : 0.1 #Ratio of soft-dtw loss
