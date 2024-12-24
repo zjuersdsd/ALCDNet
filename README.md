@@ -37,14 +37,11 @@ The soft-Dtw code is heavily based on [soft-dtw](https://github.com/Maghoumi/pyt
 
 If you find this method and/or code useful, please consider citing
 
-@ARTICLE{10806760,\
+@article{liu2024alcdnet,\
+  title={ALCDNet: Loop Closure Detection Based on Acoustic Echoes},\
   author={Liu, Guangyao and Cui, Weimeng and Jia, Naizheng and Xi, Yuzhang and Li, Shuyu and Wang, Zhi},\
-  journal={IEEE Robotics and Automation Letters}, \
-  title={ALCDNet: Loop Closure Detection Based on Acoustic Echoes}, \
+  journal={IEEE Robotics and Automation Letters},\
   year={2024},\
-  volume={},\
-  number={},\
-  pages={1-8},\
-  keywords={Feature extraction;Robots;Liquid crystal displays;Acoustics;Accuracy;Lighting;Laser radar;Ground penetrating radar;Geophysical measurement techniques;Interference;Acoustic;Loop Closure Detection (LCD)},\
-  doi={10.1109/LRA.2024.3519906}}
+  publisher={IEEE}\
+}
 
